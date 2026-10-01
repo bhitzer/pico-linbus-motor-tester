@@ -22,7 +22,7 @@ target_link_libraries(linbus_motor_tester
 
 # Enable usb output, disable uart output
 pico_enable_stdio_usb(linbus_motor_tester 1)
-pico_enable_stdio_uart(linbus_motor_tester 1)
+pico_enable_stdio_uart(linbus_motor_tester 0)
 
 # Create map/bin/hex/uf2 file etc.
 pico_add_extra_outputs(linbus_motor_tester)
